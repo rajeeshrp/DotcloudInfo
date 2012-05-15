@@ -26,9 +26,8 @@ Installation
   describes the steps involved in the manual installation.
 
 * Copy your local api-key file (Usually named as `doctcloud.conf`) to the service 
-  where you've installed the server-density agent.
+  where you've installed the server-density agent. ::
 
-  ::
     dotcloud run myapp.myservice "mkdir ~/.dotcloud"
     dotcloud run myapp.myservice "cat > ~/.dotcloud/dotcloud.conf" < ~/.dotcloud/dotcloud.conf
 
